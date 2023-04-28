@@ -1,0 +1,46 @@
+#up {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#up li {
+    float: left;
+}
+
+#up a {
+    display: block;
+    padding: 14px 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#up a:hover {
+    background-color: #757575;
+}
+
+#up li #home {
+    color: rgb(219, 250, 201);
+}
+
+#footText {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 80%;
+    color: #8a8a8a;
+    float: inline-end;
+}
+
+#footText #t1 {
+    
+    float: left;
+}
+
+#footText #t2 {
+    float: right;
+}
+
+#NaiTap.Web.Studio {color: NaiTap Studio;}

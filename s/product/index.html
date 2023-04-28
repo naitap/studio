@@ -1,0 +1,45 @@
+<!--NaiTap.Web.Studio-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>产品 - NaiTap Studio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <ul id="up">
+            <li><a href="../../" id="home">Studio首页</a></li>
+            <li><a href="../product" id="mny">产品</a></li>
+            <li><a href="../about" id="about">关于</a></li>
+        </ul>
+        <h3>全部产品：</h3>
+        <div id="product-all">
+            <div id="pj">
+                <samp>类型:</samp>
+                <button id="pd-all-pj-app" onclick="pdAllPjApp()">软件</button>
+                <button id="pd-all-pj-web" onclick="pdAllPjWeb()">网页</button>
+            </div>
+            <br>
+            <div id="product-show">
+                <div id="product-show-app">
+                    <ul>
+                        还未发行软件呢!
+                    </ul>
+                </div>
+                <div id="product-show-web">
+                    <ul>
+                        <a href="https://naitap.github.io"><button id="web-1"><p>naitap.github.io</p></button></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footText">
+            <p id="t1">NaiTap Studio | NaiTap工作室</p>
+            <p id="t2">NaiTap Studio © 2023</p>
+        </div>
+        <script src="script.js"></script>
+        <script>
+            document.getElementById("pd-all-pj-app").style.boxShadow="2px 2px 2px black";
+        </script>
+    </body>
+</html>
