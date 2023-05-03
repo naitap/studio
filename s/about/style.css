@@ -26,7 +26,7 @@
     color: rgb(219, 250, 201);
 }
 
-#footText {
+#cpig {
     margin-left: 2%;
     margin-right: 2%;
     font-size: 80%;
@@ -34,12 +34,12 @@
     float: inline-end;
 }
 
-#footText #t1 {
+#cpig #lt {
     
     float: left;
 }
 
-#footText #t2 {
+#cpig #rt {
     float: right;
 }
 

@@ -36,7 +36,7 @@
     font-size: 40%;
 }
 
-#footText {
+#cpig {
     margin-left: 2%;
     margin-right: 2%;
     font-size: 80%;
@@ -44,12 +44,12 @@
     float: inline-end;
 }
 
-#footText #t1 {
+#cpig #lt {
     
     float: left;
 }
 
-#footText #t2 {
+#cpig #rt {
     float: right;
 }
 
@@ -57,5 +57,3 @@
     margin-top: 7%;
     margin-left: 30%;
 }
-
-#NaiTap.Web.Studio {color: NaiTap Studio;}
