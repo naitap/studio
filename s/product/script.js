@@ -12,4 +12,4 @@ function pdAllPjWeb(){
     document.getElementById("pd-all-pj-app").style.boxShadow="";
 }
 
-document.getElementById("NaiTap Studio").innerHTML="NaiTap Studio"
+
