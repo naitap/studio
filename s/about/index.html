@@ -4,6 +4,7 @@
         <title>关于 - NaiTap Studio</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../../public.css">
     </head>
     <body>
         <ul id="up">
@@ -16,7 +17,7 @@
             <hr>
             <h3>介绍</h3>
             <hr>
-            <p>NaiTap Studio（简称 NTS），是由 NaiTap（别名 十四） 在2023年4月5日所创建的一家主要<br/>以技术为主的工作室。</p>
+            <p>NaiTap Studio（简称 NTS），是由 NaiTap（别名 fourteen） 在2023年4月5日所创建的一家主要<br/>以技术为主的工作室。</p>
             <br/>
             <h3>Logo</h3>
             <hr>
@@ -29,11 +30,11 @@
             <br/>黄底蓝字形成一种对比之美</p>
             <br><br><h3>相关人员</h3><hr>
             <p>
-                NaiTap （别名 十四）：NTS现任CEO
+                NaiTap （别名 fourteen）：NTS现任CEO
                 <br/><br/>
-                SPP_Chen_小辰子（别名 Chen）：开发人员
+                <span class="user chen"></span>（别名 Chen）：开发人员
                 <br/><br/>
-                充益：设计师
+                <span class="user chongyi"></span>：设计师
             </p>
             <br/>
             <h3>其他页面</h3><hr>
@@ -42,7 +43,9 @@
         </div>
         <div id="footer">
             <p id="lt">NaiTap Studio | NaiTap工作室</p>
-            <p id="rt">NaiTap Studio © 2023</p>
+            <p id="rt">NaiTap Studio © <span id="year"></span></p>
         </div>
+        <script src="../../js/year.js"></script>
+        <script src="../../js/about.js"></script>
     </body>
 </html>
