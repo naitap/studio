@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>产品 - NaiTap Studio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../../public.css">
+    </head>
+    <body>
+        <ul id="up">
+            <li><a href="../../" id="home">首页</a></li>
+            <li><a href="../product" id="mny">产品</a></li>
+            <li><a href="../about" id="about">关于</a></li>
+        </ul>
+        <h3>全部产品：</h3>
+        <div id="product-all">
+            <div id="pj">
+                <samp>类型:</samp>
+                <button id="pd-all-pj-app" onclick="pdAllPjApp()">软件</button>
+                <button id="pd-all-pj-web" onclick="pdAllPjWeb()">网页</button>
+            </div>
+            <br>
+            <div id="product-show">
+                <div id="product-show-app">
+                    <ul>
+                        <a href="download/index.html#a001"><button>BinaryToGraphics 二进制转换图形</button></a>
+                    </ul>
+                </div>
+                <div id="product-show-web">
+                    <ul>
+                        <a href="https://naitap.github.io"><button><p>naitap.github.io</p></button></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p id="lt">NaiTap Studio | NaiTap工作室</p>
+            <p id="rt">NaiTap Studio © <span id="year"></span></p>
+        </div>
+        <script src="script.js"></script>
+        <script src="../../js/year.js"></script>
+        <script>
+            document.getElementById("pd-all-pj-app").style.boxShadow="2px 2px 2px black";
+        </script>
+    </body>
+</html>
